@@ -8,7 +8,7 @@ from agents.linkedin_lookup_agent import lookup as linkedin_lookup_agent
 if __name__ == "__main__":
     print("Hello Langchain")
     
-    linkedin_profile_url =linkedin_lookup_agent(name="Eden Marco") 
+    linkedin_profile_url =linkedin_lookup_agent(name="Eden Marco Udemy") 
     
     summary_template = """
         given the information {information} about a person from I want you to create:
