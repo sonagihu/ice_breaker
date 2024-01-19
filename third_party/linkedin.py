@@ -7,11 +7,11 @@ def scrape_linkedin_profile(linkedin_profile_url: str):
     # headers = {'Authorization': 'Bearer ' + api_key}
     # api_endpoint = 'https://gist.githubusercontent.com/sonagihu/ab71ee6aee732110289da42be8331334/raw/69f06cfcfa75d8bc9593db06c47ddd3cb9a77f45/gistfile1.txt'
 
-    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-    
-    print("linkedin_url : {0}".format(linkedin_profile_url))
-    linkedin_profile_url ='https://gist.githubusercontent.com/sonagihu/ab71ee6aee732110289da42be8331334/raw/69f06cfcfa75d8bc9593db06c47ddd3cb9a77f45/gistfile1.txt' 
-    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+    # do not change url in linked.py
+    # do it in main
+    # print("linkedin_url : {0}".format(linkedin_profile_url))
+    # linkedin_profile_url ='https://gist.githubusercontent.com/sonagihu/ab71ee6aee732110289da42be8331334/raw/69f06cfcfa75d8bc9593db06c47ddd3cb9a77f45/gistfile1.txt' 
+    # print("linkedin_url redirect : {0}".format(linkedin_profile_url))
     
     response = requests.get(linkedin_profile_url)
 

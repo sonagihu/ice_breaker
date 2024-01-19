@@ -10,6 +10,11 @@ if __name__ == "__main__":
     
     linkedin_profile_url =linkedin_lookup_agent(name="Eden Marco Udemy") 
     
+    
+    print("linkedin_url found: {0}".format(linkedin_profile_url))
+    linkedin_profile_url ='https://gist.githubusercontent.com/sonagihu/ab71ee6aee732110289da42be8331334/raw/69f06cfcfa75d8bc9593db06c47ddd3cb9a77f45/gistfile1.txt' 
+    print("linkedin_url redirect : {0}".format(linkedin_profile_url))
+    
     summary_template = """
         given the information {information} about a person from I want you to create:
         1. a short summary
