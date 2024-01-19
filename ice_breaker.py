@@ -24,13 +24,6 @@ if __name__ == "__main__":
 
     chain = LLMChain(llm=llm, prompt=summary_prompt_template)
 
-    # Chapter 2
-    # linkedin_data = scrape_linkedin_profile(
-    #     linkedin_profile_url="https://gist.githubusercontent.com/sonagihu/ab71ee6aee732110289da42be8331334/raw/69f06cfcfa75d8bc9593db06c47ddd3cb9a77f45/gistfile1.txt"
-    # )
-    
-    # Chapter 3
-
     linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_profile_url)
     
     print(chain.run(information=linkedin_data))
